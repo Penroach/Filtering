@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>フィルタリング</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery本体 -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Filtering</h1>
+
+    <div id="buttons">
+      <button value="all" class="current">all</button>
+      <button value="Pistols">Pistols</button>
+      <button value="Rifles">Rifles</button>
+      <button value="SMGs">SMGs</button>
+      <button value="Shotguns">Shotguns</button>
+      <button value="USA">USA</button>
+      <button value="Russia">Russia</button>
+      <button value="Germany">Germany</button>
+      <button value="Italy">Italy</button>
+    </div><!-- /#buttons -->
+
+    <ul id="list">
+      <li class="Shotguns Russia">
+        <img src="img/Baikal MP-153.png" alt="item1">
+      </li>
+      <li class="Shotguns USA">
+        <img src="img/Remington 870.png" alt="item2">
+      </li>
+      <li class="Shotgubs Italy">
+        <img src="img/Beneli M4.png" alt="item3">
+      </li>
+      <li class="Pistols USA">
+        <img src="img/M1911.png" alt="item4">
+      </li>
+      <li class="Pistols Italy">
+        <img src="img/Beretta 92FS.png" alt="item5">
+      </li>
+      <li class="Pistols Germany">
+        <img src="img/Luger P08.png" alt="item6">
+      </li>
+      <li class="Rifles USA">
+        <img src="img/M4A1.png" alt="item7">
+      </li>
+      <li class="Rifles Russia">
+        <img src="img/AK-47.png" alt="item8">
+      </li>
+      <li class="Rifles Germany">
+        <img src="img/Gewehr 98.png" alt="item9">
+      </li>
+      <li class="SMGs USA">
+        <img src="img/Thompson.png" alt="item10">
+      </li>
+      <li class="SMGs Germany">
+        <img src="img/MP5.png" alt="item11">
+      </li>
+      <li class="SMGs Russia">
+        <img src="img/PPSh-41.png" alt="item12">
+      </li>
+    </ul><!-- /#list -->
+  </div><!-- /#wrapper -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
